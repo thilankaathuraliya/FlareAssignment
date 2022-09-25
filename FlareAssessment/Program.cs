@@ -175,7 +175,7 @@ namespace FlareAssessment
         }
 
 
-        public static void CreateRectabgle(int left, int top, int width, int height, string letter, bool isMainGrid, int cursorPoint)
+        private static void CreateRectabgle(int left, int top, int width, int height, string letter, bool isMainGrid, int cursorPoint)
         {
             for (int i = 0; i < width; i++)
             {
